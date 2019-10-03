@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* START DASHBOARD */
+.dashboard {
+  background: rgba(66, 227, 85, 0.05);
+}
+/* END DASHBOARD */
+
+/* START CUSTOMER */
+.customer {
+  margin-top: 20px;
+}
+table { 
+  border-collapse: separate; 
+  border-spacing: 0 20px;
+}
+thead td {
+  padding: 10px;
+  background-color: #42E355;
+  color: #fff
+}
+tbody td {
+  padding: 10px;
+  background-color: #ffffff;
+}
+td:first-child {
+  border-top-left-radius: 5px; 
+  border-bottom-left-radius: 5px;
+}
+td:last-child {
+  border-bottom-right-radius: 5px; 
+  border-top-right-radius: 5px; 
+}
+tbody button {
+  border-radius: 20px !important;
+  color: white !important;
+  /* width: 83.47px !important; */
+  /* height: 24px !important; */
+  text-align: center !important;
+  font-size: 12px !important;
+}
+.update {
+  width: 83.47px !important;
+  background: #4F4F4F !important;
+}
+.treat {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+.assigned {
+  background: #F79E36 !important;
+}
+.defect {
+  background: #FF0000 !important;
+}
+.alat {
+  background: #711F1F !important;
+}
+.await {
+  background: #A25C09 !important;
+}
+/* END CUSTOMER */
+
+/* START SIDEBAR*/
+.sidebar-con {
+  border-radius: 10px;
+  box-shadow: 0px 4px 34px rgba(139, 247, 54, 0.3);
+}
+.active {
+  border: 1px solid #42E355;
+}
+.sidebar-card {
+  box-shadow: 0px 4px 34px rgba(139, 247, 54, 0.1);
+  border-radius: 10px;
+  background: #FFFFFF;
+  top: 20px;
+  border: none;
+  left: 20px;
+  
+}
+.alert-light strong {
+  color: #000000 !important
+}
+.sidebar-line {
+  border: 1px solid #42E355;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+/* END SIDEBAR  */

@@ -1,14 +1,12 @@
 import React from "react";
+import Dashboard from "./components/dashboard/Dashboard";
 
 class App extends React.Component {
-  constructor() {
-    super();
-  }
 
   render() {
     return (
       <div className="App">
-        <p>This is my first props</p>
+        <Dashboard />
       </div>
     );
   }
